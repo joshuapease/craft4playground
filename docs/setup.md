@@ -11,7 +11,7 @@ Docker may conflict over port usage with other local host tools like MAMP. Turn 
    Open `/etc/hosts` and add:
 
    ```
-   127.0.0.1 craftunit.test
+   127.0.0.1 craft.test
    ```
 
    Then run `sudo killall -HUP mDNSResponder` to flush your DNS cache.

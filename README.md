@@ -7,10 +7,6 @@
 
 ## Introduction
 
-This repo is all about running tests! Once you set up and run the app, you can run Codeception commands like so.
+Play around with Craft 4.
 
-```
-bin/codecept run unit
-
-bin/codecept run functional
-```
+There are no templates set up currently, all the fun is in the Craft admin!
