@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: relatedEntries
+name: 'Related Entries'
+propagationMethod: all
+siteSettings:
+  6a0b378c-7f29-4394-83e7-6fbb3c370afd: # Craft 4
+    enabledByDefault: true
+    hasUrls: true
+    template: related-entries/_entry
+    uriFormat: 'related-entries/{slug}'
+type: channel

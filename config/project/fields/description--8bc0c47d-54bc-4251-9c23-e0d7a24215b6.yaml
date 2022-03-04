@@ -1,0 +1,19 @@
+columnSuffix: jmiqjaqj
+contentColumnType: text
+fieldGroup: bcef177b-387c-4ec1-8a8f-2b0c381bae2e # Common
+handle: description
+instructions: ''
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

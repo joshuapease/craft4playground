@@ -1,0 +1,89 @@
+fieldLayouts:
+  66021dd8-b32c-4d93-9436-0e4dfd690cca:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ae118f5f-6a73-43e8-b09b-0226b2e2aedc
+            warning: null
+            width: 100
+          -
+            fieldUid: 7d121022-1fa4-4579-a397-39c22c5e346c # Page Blocks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29ff3e79-f6aa-47c2-98d0-0c924d7f1435
+            warning: null
+            width: 100
+          -
+            fieldUid: dbde8997-5170-48cc-8130-2f4bd878d4f9 # Checkbox
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f567e616-8894-4f22-9096-dcb10dbb46d5
+            warning: null
+            width: 100
+          -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: dbde8997-5170-48cc-8130-2f4bd878d4f9 # Checkbox
+                  uid: b584632e-5409-43ed-84b5-0adfa9fe6d33
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 8bc0c47d-54bc-4251-9c23-e0d7a24215b6 # Description
+            instructions: ''
+            label: ''
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7d99a6c9-6874-45f8-b261-1dbbe5c1d32c
+            warning: null
+            width: 100
+          -
+            fieldUid: 5dfa68fe-3262-4328-baa0-d0c78035376b # Related Entries
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 985dbd9c-767a-4275-92c7-1cd30aec4c60
+            warning: null
+            width: 100
+        name: Content
+        uid: 9c0d7aab-451a-45d3-8214-f8819a94a1e1
+handle: default
+hasTitleField: true
+name: Default
+section: dd26d365-2686-4170-b6ff-d9e1711cbc53 # Pages
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

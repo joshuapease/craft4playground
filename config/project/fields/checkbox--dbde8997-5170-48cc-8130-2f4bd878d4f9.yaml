@@ -1,0 +1,14 @@
+columnSuffix: nwczfgnq
+contentColumnType: boolean
+fieldGroup: bcef177b-387c-4ec1-8a8f-2b0c381bae2e # Common
+handle: checkbox
+instructions: ''
+name: Checkbox
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

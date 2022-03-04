@@ -1,0 +1,55 @@
+dateModified: 1646418336
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      key: 'section:4f1f87ce-6e85-409d-a5c2-08c4e542245f' # Related Entries
+      type: native
+    -
+      heading: Structures
+      type: heading
+    -
+      key: 'section:dd26d365-2686-4170-b6ff-d9e1711cbc53' # Pages
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+        - 'field:6'
+      type: native
+email:
+  fromEmail: joshua.pease@viget.com
+  fromName: 'Craft 4'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    4f1f87ce-6e85-409d-a5c2-08c4e542245f: 'Related Entries' # Related Entries
+    5dfa68fe-3262-4328-baa0-d0c78035376b: 'Related Entries' # Related Entries
+    6a0b378c-7f29-4394-83e7-6fbb3c370afd: 'Craft 4' # Craft 4
+    7d121022-1fa4-4579-a397-39c22c5e346c: 'Page Blocks' # Page Blocks
+    8bc0c47d-54bc-4251-9c23-e0d7a24215b6: Description # Description
+    876b18a8-33be-4027-a5b6-83d4affbe81d: 'Craft 4' # Craft 4
+    09866fbe-21ff-41d8-8a1f-17eab651bfc7: Heading # Heading
+    2184622e-00db-4c94-a254-49dedccda250: CTA # CTA
+    a5d325e5-d78b-4404-8a8b-aa0b48877df6: Details # Details
+    a2397ed8-6042-4096-8c40-dadb737e67a6: Default # Default
+    bcef177b-387c-4ec1-8a8f-2b0c381bae2e: Common # Common
+    dbde8997-5170-48cc-8130-2f4bd878d4f9: Checkbox # Checkbox
+    dd26d365-2686-4170-b6ff-d9e1711cbc53: Pages # Pages
+    f03d81c4-b56d-495c-a445-278ed9fb4f06: Default # Default
+system:
+  edition: solo
+  live: true
+  name: 'Craft 4'
+  schemaVersion: 4.0.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
